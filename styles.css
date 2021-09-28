@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+body {
+  font-family: "Open Sans", sans-serif;
+}
 .flex {
   display: flex;
   flex-direction: row;
@@ -8,5 +12,38 @@
 .flex__box {
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.35);
   border-radius: 0.5rem;
-  flex: 1 1 10ch;
+  flex: 1;
+  flex-basis: 30%;
+}
+.flex__box img {
+  border-radius: 0.5rem;
+  max-width: 100%;
+  height: auto;
+}
+#flex__box__image--bezos {
+  background-image: url("/images/bezos.webp");
+}
+#flex__box__image--hank {
+  background-image: url("/images/hank.jpg");
+}
+#flex__box__image--jesse {
+  background-image: url("/images/jesse.webp");
+}
+#flex__box__image--jesse2 {
+  background-image: url("/images/jesse2.webp");
+}
+#flex__box__image--mike {
+  background-image: url("/images/mike.webp");
+}
+#flex__box__image--rock {
+  background-image: url("/images/rock.jpg");
+}
+#flex__box__image--vindiesel {
+  background-image: url("/images/vindiesel.jpg");
+}
+#flex__box__image--walt {
+  background-image: url("/images/walt.webp");
+}
+#flex__box__image--whalen {
+  background-image: url("/images/whalen.jpg");
 }

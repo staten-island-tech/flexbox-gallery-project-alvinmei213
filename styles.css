@@ -2,17 +2,18 @@
 body {
   font-family: "Open Sans", sans-serif;
 }
+h1 {
+  text-align: center;
+}
 .flex {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   gap: 1rem;
   justify-content: center;
 }
 .flex__box {
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.35);
   border-radius: 0.5rem;
-  position: relative;
   max-width: 100%;
   flex-grow: 0;
   flex-shrink: 0;

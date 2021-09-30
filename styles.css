@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Open+Sans:wght@700&display=swap");
 body {
   font-family: "Open Sans", sans-serif;
+  font-size: medium;
   background: #dcb194;
   background: radial-gradient(circle, #dcb194 0%, #443428 100%);
   color: #faf9f6;

@@ -23,6 +23,7 @@ h1 {
   flex-grow: 0;
   flex-shrink: 0;
   text-align: center;
+  font-weight: 700;
 }
 .flex__box img {
   border-radius: 0.5rem;

@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 body {
   font-family: "Open Sans", sans-serif;
+  background: #dcb194;
+  background: radial-gradient(circle, #dcb194 0%, #443428 100%);
+  color: #faf9f6;
 }
 h1 {
   text-align: center;
@@ -10,9 +13,11 @@ h1 {
   flex-flow: row wrap;
   gap: 1rem;
   justify-content: center;
+  padding-bottom: 5rem;
 }
 .flex__box {
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.35);
+  background-color: #915e43;
   border-radius: 0.5rem;
   max-width: 100%;
   flex-grow: 0;

@@ -1,10 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Open+Sans:wght@700&display=swap");
-body {
+html,
+body,
+* {
   font-family: "Open Sans", sans-serif;
+  margin: 0;
+  box-sizing: border-box;
   font-size: medium;
+  color: #faf9f6;
+}
+body {
   background: #dcb194;
   background: radial-gradient(circle, #dcb194 0%, #443428 100%);
-  color: #faf9f6;
 }
 h1 {
   text-align: center;
@@ -33,4 +39,16 @@ h1 {
   max-width: 100%;
   position: relative;
   display: block;
+}
+.grow {
+  transform: perspective(1px) translateZ(0);
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+.grow:hover,
+.grow:focus,
+.grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  z-index: 1;
 }

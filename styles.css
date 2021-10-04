@@ -40,15 +40,34 @@ h1 {
   position: relative;
   display: block;
 }
-.grow {
+.trans {
   transform: perspective(1px) translateZ(0);
   transition-duration: 0.3s;
   transition-property: transform;
 }
-.grow:hover,
-.grow:focus,
-.grow:active {
-  -webkit-transform: scale(1.1);
+#grow:hover {
   transform: scale(1.1);
   z-index: 1;
+}
+#shrink:hover {
+  transform: scale(0.9);
+}
+#rotate:hover {
+  transform: rotate(4deg);
+}
+#sink:hover {
+  transform: translateY(8px);
+}
+#flip:hover {
+  transform: skew(10deg);
+}
+.rock {
+  transition: opacity 1s ease-in-out;
+}
+.rock:hover {
+  opacity: 0;
+}
+.stone {
+  position: relative;
+  margin: 0;
 }

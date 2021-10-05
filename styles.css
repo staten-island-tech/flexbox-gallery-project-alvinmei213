@@ -7,7 +7,6 @@ body,
   box-sizing: border-box;
   font-size: medium;
   color: #faf9f6;
-  animation: 1s ease-out 0s 1 slide_and_rotate;
 }
 @keyframes slide_and_rotate {
   0% {
@@ -20,6 +19,7 @@ body,
 body {
   background: #dcb194;
   background: radial-gradient(circle, #dcb194 0%, #443428 100%);
+  animation: 1s ease-out 0s 1 slide_and_rotate;
 }
 h1 {
   text-align: center;

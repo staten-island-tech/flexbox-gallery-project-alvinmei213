@@ -3,10 +3,10 @@ html,
 body,
 * {
   font-family: "Open Sans", sans-serif;
+  padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-size: medium;
-  color: #faf9f6;
+  font-size: 62.5%;
 }
 @keyframes slide_and_rotate {
   0% {
@@ -16,9 +16,14 @@ body,
     transform: rotate(0deg) translateX(0%);
   }
 }
+a {
+  color: #faf9f6;
+}
 body {
   background: #dcb194;
+  color: #faf9f6;
   background: radial-gradient(circle, #dcb194 0%, #443428 100%);
+  font-size: medium;
   animation: 1s ease-out 0s 1 slide_and_rotate;
 }
 h1 {
@@ -40,6 +45,7 @@ h1 {
   max-width: 100%;
   flex-grow: 0;
   flex-shrink: 0;
+  font-size: x-large;
   text-align: center;
   font-weight: 700;
 }

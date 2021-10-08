@@ -8,6 +8,14 @@ body,
   box-sizing: border-box;
   font-size: 62.5%;
 }
+@media only screen and (max-width: 540px) {
+  .flex__box {
+    width: 90%;
+  }
+  .rock {
+    width: 90%;
+  }
+}
 @keyframes slide_and_rotate {
   0% {
     transform: rotate(20deg) translateX(-200%);

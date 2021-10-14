@@ -25,20 +25,10 @@ body,
     font-weight: 400;
   }
   .rock {
-    width: 30%;
+    width: 60%;
   }
 }
 @media screen and (max-width: 548px) {
-  .flex__box {
-    width: 90%;
-    padding-bottom: 0em;
-    font-weight: 400;
-  }
-  .rock {
-    width: 90%;
-  }
-}
-@media screen and (max-width: 540px) {
   .flex__box {
     width: 90%;
     padding-bottom: 0em;
